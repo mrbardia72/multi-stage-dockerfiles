@@ -1,0 +1,8 @@
+version: "3.5"
+
+services:
+  web:
+    container_name: distracted_merkle_compose
+    build: ./httpserver
+    ports:
+      - "4030:8080"
