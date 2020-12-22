@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d9cd58d-08bd-418d-898a-aa16851ff2c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/httpserver/Dockerfile" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/httpserver/docker-compose.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/httpserver/go.mod" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/httpserver/go.sum" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/httpserver/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpserver/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/httpserver/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
