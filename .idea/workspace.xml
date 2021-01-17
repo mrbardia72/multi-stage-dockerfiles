@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d9cd58d-08bd-418d-898a-aa16851ff2c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/httpserver/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/httpserver/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/httpserver/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/httpserver/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/httpserver/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/httpserver/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpserver/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/httpserver/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpserver/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/httpserver/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +14,6 @@
   <component name="GOROOT" path="/snap/go/6745" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GoLibraries">
-    <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1m0GFtXyzhcukA6XqSe1wKGsNw1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -34,8 +28,10 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
 </project>

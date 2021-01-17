@@ -9,15 +9,12 @@ import (
 
 func main() {
 	http.Handle("/", loggingMiddleware(http.HandlerFunc(handler)))
-
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
 
 func handler(w http.ResponseWriter, req *http.Request) {
-	fmt.Fprintf(w, "package main #14")
+	fmt.Fprintf(w, "gopher academy smaple")
 }
-
-
 
 func loggingMiddleware(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, req *http.Request) {

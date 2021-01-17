@@ -1,8 +1,12 @@
 version: "3.5"
-
+# Define services
 services:
-  web:
-    container_name: distracted_merkle_compose
-    build: ./httpserver
+  # App Service
+  app:
+    # Configuration for building the docker image for the service
+    build:
+      context: . # Use an image built from the specified dockerfile in the current directory.
+      dockerfile: Dockerfile
     ports:
-      - "4030:8080"
+      - "4030:8080" # Forward the exposed port 4030 on the container to port 8080 on the host machine
+    restart: unless-stopped
